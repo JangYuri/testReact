@@ -3,9 +3,20 @@
     display: flex;
     flex-direction: column;
     width: 234px;
-    height: 323px;
+    /* height: 323px; */
     border-radius: 6px;
     box-shadow: 0 13px 16px rgba(0, 0, 0, 0.219), 0 13px 16px rgba(0,0,0,0.23); 
+}
+.cal-body {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+
+}
+
+.minimize {
+    display: none;
+
 }
 .cal-form-wrapper{
     width: 100%;

@@ -5,20 +5,12 @@
     flex-direction: column;
     justify-content: center;
 }
-.closedSpace img{
-    width:100px;
-    cursor: pointer;
-}
+    .closedSpace img{
+        width:100px;
+        cursor: pointer;
+    }
 
-.closedSpace p{
-    color: white;
-    margin: 5px auto;
-}
-
-
-.minimizedSpace {
-    height: 323px;
-    display: flex;
-    align-content: flex-end;
-    justify-content: center;
-}
+    .closedSpace p{
+        color: white;
+        margin: 5px auto;
+    }

@@ -376,11 +376,13 @@ class CalTemplate extends Component {
         return (
             <main className="cal-template" style={modeStyle} >
                 {this.props.children}
-                <section className="cal-form-wrapper">
-                    <p className="valueStyle" >{value}</p>
-                </section>
-                <section className="cal-btns-wrapper">
-                    <CalBtns doExpan={this.props.doExpan} ACMode={ACMode} onBtnPress={onBtnPress} />
+                <section className={this.props.doMinimize ? "minimize" : "cal-body"}>
+                    <article className="cal-form-wrapper">
+                        <p className="valueStyle" >{value}</p>
+                    </article>
+                    <article className="cal-btns-wrapper">
+                        <CalBtns doExpan={this.props.doExpan} ACMode={ACMode} onBtnPress={onBtnPress} />
+                    </article>
                 </section>
             </main>
         );

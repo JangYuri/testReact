@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">이거슨 유리의 계산기</header>
-        <div className="contents">
+        <div className="calculator">
           <Calculator />
         </div>
       </div>
