@@ -1,0 +1,13 @@
+.cal-windowbtns-wrapper{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 5px;
+}
+    .cal-windowbtns-wrapper img{
+        width: 12px;
+        height: 12px;
+        margin: auto 4px;
+    }
