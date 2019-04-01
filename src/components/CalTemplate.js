@@ -371,10 +371,11 @@ class CalTemplate extends Component {
 
         const {
             onBtnPress,
+            handleKeyPress,
         } = this
 
         return (
-            <main className="cal-template" style={modeStyle} >
+            <main className="cal-template" style={modeStyle} onKeyPress={handleKeyPress}>
                 {this.props.children}
                 <section className={this.props.doMinimize ? "minimize" : "cal-body"}>
                     <article className="cal-form-wrapper">
